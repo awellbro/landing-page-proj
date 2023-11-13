@@ -1,4 +1,67 @@
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
-    background: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    flex: auto;
+    align-items: center;
+}
+
+.headerLogo {
+    display: flex;
+}
+
+.hlinks {
+    display: flex;
+    gap: 1em;
+}
+
+.header, .one {
+    background: #1F2937;
     color: white;
+    margin: 0px;
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    padding: 0.5em 2em;
+}
+
+.oneLeft {
+    flex: 0 1 auto;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.oneLeft > button {
+    width: 70px;
+    max-width: 70px;
+    min-width: auto;
+}
+
+.oneRight {
+    flex: 0 1 auto;
+}
+.oneRight > img {
+    height: auto;
+    max-height: 200px;
+    width: auto;
+    max-width: 300px;
+}
+
+.imgTxt > img {
+    height: auto;
+    max-height: 150px;
+    width: auto;
+    max-width: 150px;
 }
