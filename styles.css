@@ -13,7 +13,6 @@ body {
 .header {
     display: flex;
     flex: auto;
-    align-items: center;
 }
 
 .headerLogo {
@@ -32,6 +31,7 @@ body {
     display: flex;
     flex: auto;
     justify-content: space-around;
+    align-items: center;
     padding: 0.5em 2em;
 }
 
@@ -60,6 +60,7 @@ body {
 }
 
 .imgTxt > img {
+    border-radius: 10%;
     height: auto;
     max-height: 150px;
     width: auto;
