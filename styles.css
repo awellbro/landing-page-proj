@@ -46,6 +46,11 @@ body {
     gap: 1em;
 }
 
+.hlink > a {
+    color: white;
+    text-decoration: none;
+}
+
 .header, .one {
     background: #1F2937;
     color: white;
@@ -88,6 +93,16 @@ body {
     margin: 3px;
 }
 
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+button > a {
+    font: white;
+    text-decoration: none;;
+}
+
 .oneRight {
     flex: auto;
     display: flex;
@@ -107,6 +122,8 @@ body {
     align-items: center;
     flex: auto;
 }
+
+
 
 .twoBot {
     display: flex;
