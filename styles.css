@@ -21,14 +21,28 @@ body {
     padding: 1em;
 }
 
+.headerLeft {
+    display: flex;
+    justify-content: flex-start;
+    flex: auto;
+}
+
+.headerRight {
+    display: flex;
+    justify-content: flex-end;
+    flex: auto;
+}
+
 .headerLogo {
     display: flex;
     flex: 0 1 auto;
+    width: 200px;
 }
 
 .hlinks {
     display: flex;
     flex: 0 1 auto;
+    width: 340px;
     gap: 1em;
 }
 
@@ -44,7 +58,7 @@ body {
 }
 
 .oneLeft {
-    flex: 0 1 auto;
+    flex: auto;
     width: 40%;
     height: auto;
     display: flex;
@@ -75,8 +89,10 @@ body {
 }
 
 .oneRight {
-    flex: 0 1 auto;
+    flex: auto;
+    display: flex;
     margin-left: 10px;
+    justify-content: flex-end;
 }
 .oneRight > img {
     height: auto;
